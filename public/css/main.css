@@ -32,3 +32,23 @@ ul.access li a:hover {
   border: 1px solid white;
   border-radius: 5px;
 }
+
+#main-header div h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#nav {
+  margin-left: 10%;
+}
+
+#nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#nav li a {
+  text-decoration: none;
+}
