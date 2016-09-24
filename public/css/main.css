@@ -79,3 +79,24 @@ ul.access li a:hover {
   position: absolute;
   height: 340px;
 }
+
+#nav-bar {
+  float: right;
+}
+
+.identity-main {
+  float: left;
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.identity-btn {
+  /* This is creating the button like stuff below */
+  padding: 10px 100px;
+  background-color: skyblue;
+  border-radius: 5px;
+}
+
+.identity-main form div {
+  margin-bottom: 15px;
+}

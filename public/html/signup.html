@@ -3,12 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>Sign up for Twitta</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <header>
+  <header id="nav-bar">
     Have an account? <a href="/login">Log in</a>
   </header>
-  <main>
+  <main class="identity-main">
     <h2>Join Twitta Today!</h2>
     <form action="/signup">
       <div>
@@ -23,7 +24,9 @@
         <label for="password">Password:</label>
         <input type="password" placeholder="Enter a strong password" required>
       </div>
-      <button type="submit">Sign up</button>
+      <div>
+        <button type="submit" class="identity-btn">Sign up</button>
+      </div>
       <div>
         <input type="checkbox" checked> Stuff and tracking...
       </div>
