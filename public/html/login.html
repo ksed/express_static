@@ -2,30 +2,30 @@
 <html lang="en">
 <head>
   <title>Login on Twitta</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body id="login-body">
   <header>
-  <h3>Log in to Twitta</h3>
+    <h3>Log in to Twitta</h3>
   </header>
-  <hr>
   <main>
     <form action="/login">
       <div>
         <label for="username">Username:</label>
-        <input type="text">
+        <input type="text" placeholder="Enter your email address" required>
       </div>
       <div>
         <label for="password">Password:</label>
-        <input type="password">
+        <input type="password" placeholder="Enter your password" required>
       </div>
       <div>
-        <button type='submit'>Login</button> <input type="checkbox"> Remember me - <a href="/login">Forgot password?</a>
+        <button type='submit' class="identity-btn">Login</button>
+        <p> <input type="checkbox"> Remember me - <a href="/login">Forgot password?</a> </p>
       </div>
     </form>
   </main>
-  <hr>
   <footer>
-    <p>New to Twitta? <a href="/signup">Signup now</a></p>
+    <p> New to Twitta? <a href="/signup">Signup now</a> </p>
   </footer>
 </body>
 </html>
