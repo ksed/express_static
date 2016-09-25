@@ -93,7 +93,7 @@ ul.access li a:hover {
 
 .identity-btn {
   /* This is creating the button like stuff below */
-  padding: 10px 100px;
+  padding: 10px 110px;
   background-color: skyblue;
   border-radius: 5px;
 }
@@ -102,8 +102,9 @@ div {
   margin-bottom: 15px;
 }
 
-#login-body {
-  float: left;
-  margin-top: 10%;
-  margin-left: 35%;
+footer ul li {
+  display: inline;
+  list-style: none;
+  margin: 5px;
+  padding: 10px;
 }
